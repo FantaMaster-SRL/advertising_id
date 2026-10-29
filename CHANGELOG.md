@@ -1,3 +1,9 @@
+## 2.7.2
+
+* Add Swift Package Manager integration for iOS with Flutter 3.41 or newer.
+* Preserve the existing Dart API and Android implementation.
+* Retain CocoaPods source paths for projects using CocoaPods.
+
 ## [2.7.1] 2024/09/06
 
 * Fix resource bundles

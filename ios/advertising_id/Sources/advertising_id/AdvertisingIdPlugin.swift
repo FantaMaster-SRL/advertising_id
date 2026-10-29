@@ -3,10 +3,11 @@ import UIKit
 import AdSupport
 import AppTrackingTransparency
 
-public class SwiftAdvertisingIdPlugin: NSObject, FlutterPlugin {
+@objc(AdvertisingIdPlugin)
+public class AdvertisingIdPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "advertising_id", binaryMessenger: registrar.messenger())
-        let instance = SwiftAdvertisingIdPlugin()
+        let instance = AdvertisingIdPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
     
